@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app >
+	<servlet>
+	<servlet-name>first</servlet-name>
+	<servlet-class>com.task4.org.Task4</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>first</servlet-name>
+	<url-pattern>/task4</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	<servlet-name>s</servlet-name>
+	<servlet-class>com.task4.org.UserRegister</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>s</servlet-name>
+	<url-pattern>/userregister</url-pattern>
+	</servlet-mapping>
+</web-app>

@@ -1,0 +1,10 @@
+<web-app>
+<servlet>
+<servlet-name>first</servlet-name>
+<servlet-class>com.task.org.FootwearRegistration</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>first</servlet-name>
+<url-pattern>/userRegister</url-pattern>
+</servlet-mapping>
+</web-app>

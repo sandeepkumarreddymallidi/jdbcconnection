@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>employee register page</title>
+    </head>
+    <style>
+        table{
+            width: 50%;
+            background-color:white;
+        }
+        tr td{
+            padding: 10px;
+            margin-top: 10px;
+        }
+        input{
+            border: none;
+        }
+        .x{
+            width: 80%;
+            padding: 10px;
+        }
+    </style>
+        <body bgcolor="wheat" align="center">
+            <h1>leave application form</h1>
+            <form action="./leaveapply.jsp" method="post" >
+                <table border="2" align="center" >
+                <tr >
+                    <td >eid:</td>
+                    <td><input type="number" name="eid" placeholder="enter your employee id" class="x" ></td>
+                </tr>
+                <tr >
+                    <td >Name:</td>
+                    <td><input type="text" name="ename" placeholder="enter your name" class="x" ></td>
+                </tr>
+                <tr>
+                    <td >email:</td>
+                    <td><input type="text" name="eemail" placeholder="enter your email" class="x"></td>
+                </tr>
+                <tr>
+                    <td >phone:</td>
+                    <td><input type="text" name="ephonenumber" placeholder="enter your phone" class="x"></td>
+                </tr>
+                <tr>
+                    <td >age:</td>
+                    <td><input type="number" name="eage" placeholder="enter your age" class="x" ></td>
+                </tr>
+                <tr>
+                    <td >dept:</td>
+                    <td><input type="text" name="edept" placeholder="enter your department" class="x"></td>
+                </tr>
+                <tr>
+                    <td >reason:</td>
+                    <td><input type="text" name="ereason" placeholder="enter your reason" class="x"></td>
+                </tr>
+                <tr>
+                    <td >no of days:</td>
+                    <td><input type="number" name="nod" placeholder="enter number of days" class="x"></td>
+                </tr>
+                <tr>
+                    <td >leave from:</td>
+                    <td><input type="text" name="eform" placeholder="format yyyy-mm-dd" class="x"></td>
+                </tr>
+                <tr>
+                    <td >leave to:</td>
+                    <td><input type="text" name="eto" placeholder="format yyyy-mm-dd" class="x"></td>
+                </tr>
+                <tr>
+                    <td >status:</td>
+                    <td><input type="text" name="estatus" placeholder="please enter (pending)" class="x"></td>
+                </tr>
+                 
+            </table>
+            <input type="submit" value="apply" id="btn">
+            </form>
+        </body>
+</html>

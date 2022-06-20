@@ -1,0 +1,41 @@
+<html>
+    <style>
+    body {
+  width: 700px;
+  height: 300px;
+  align-content: center;
+}
+table{
+            width: 50%;
+            background-color:white;
+        }
+        tr td{
+            padding: 20px;
+            margin-top: 10px;
+        }
+        input{
+            border: none;
+        }
+        .x{
+            width: 80%;
+            padding: 20px;
+        }
+</style>
+    <body bgcolor="wheat">
+        <div>    
+        <h2 align="center">employee remaining leaves</h2>
+        </div>
+        <div>
+        <form action="remainingleaves.jsp" method="post">
+            <table align="center" border="2">
+                <tr><td>eid:</td><td><input type="number" name="eid" placeholder="enter employee id" class="x"></td></tr>
+                <tr><td>ename:</td><td><input type="text" name="ename" placeholder="enter name" class="x"></td></tr>
+                <tr><td>leaves:</td><td><input type="number" name="etotaldays" placeholder="enter number of days" class="x"></td></tr>
+                
+            </table>
+            <input type="submit" value="submit">
+        </form>
+        </div>
+    </body>
+
+</html>

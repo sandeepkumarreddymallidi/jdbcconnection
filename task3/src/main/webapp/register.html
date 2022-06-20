@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<style>
+		form{
+			width: 600px;
+			height: 600px;
+			border: 2px solid black;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+		#btn{
+			margin-top: 20px;
+			margin-left: 150px;
+			width:200px;
+			height: 30px;
+			background-color: red;
+			color: aliceblue;
+		}
+	
+		div label{
+			font-size: 20px;
+			margin-top: 20px;
+		}
+		input{
+			margin-left: 100px;
+			margin-bottom: 25px;
+		}
+		textarea{
+			margin-left: 100px;
+		}
+		h2{
+			width: 90%;
+			background-color: black;
+			color: white;
+			text-align: center;
+		}
+	</style>
+	<body>
+		
+		<form action="Task3" method="post">
+			<div>
+				<h2>user registration form</h2>
+			<label>Name:</label>
+			<input type="text" id="username" name="name"><br>
+			<label>Email id:</label>
+			<input type="text" id="useremail" name="email"><br>
+			<label>password:</label>
+			<input type="text" name="password"><br>
+			<label>phone number:</label>
+			<input type="number" name="mobile"><br>
+			<label>Gender:</label>
+			<input type="radio"    name="gender" value="male"><label>male</label>
+			<input type="radio"   name="gender" value="female"><label>female</label>	<br>
+			<label>address:</label>
+			<textarea name="address" id="useraddress" cols="30" rows="10"></textarea><br>
+			<input type="submit" value="submit" id ="btn">
+		</div>		
+		</form>
+	
+	</body>
+</html>
